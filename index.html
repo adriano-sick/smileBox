@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="Text/Javascript" src="./js/app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+    <title>SmileBeer</title>
+</head>
+<body>
+    <header>
+        <div class="headBox">
+            <h1>SmileBeer</h1>
+            <h2>Monte seu box e receba em 15 minutos!</h2>
+        </div>
+    </header>
+
+    <main>
+        <h3>Primeiro, sua breja:</h3>
+        <div id="brahma" class="breja" onclick="prod('brahma', 'breja')">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRtFjr98hQdPm6smp2tBwjl1o4I1llr754cSl_6kA0SaiAWpVb2TT6l2DmBbin3uNKetb23mf9A5w&usqp=CAc">
+            <h4>Brahma</h4>
+            <p>Chama na brahmosa!</p>
+            <p class="preco">R$ 4,90</p>
+        </div>
+
+        <div id="itaipava" class="breja" onclick="prod('itaipava', 'breja')">
+            <img src="https://superprix.vteximg.com.br/arquivos/ids/198201-600-600/Itaipava-Pilsen_350ml-_19---SUADA.jpg?v=637598793515170000">
+            <h4>Itaibraba</h4>
+            <p>A melhor breja barata que seu dinheiro pode pagar!</p>
+            <p class="preco">R$ 3,90</p>
+        </div>
+           
+        <div id="heineken" class="breja" onclick="prod('heineken', 'breja')">
+            <img src="https://io2.convertiez.com.br/m/superpaguemenos/shop/products/images/15811/medium/cerveja-heineken-350ml_11025.jpg">
+            <h4>Heineken</h4>
+            <p>Breja de burguês safado!</p>
+            <p class="preco">R$ 19,90</p>
+        </div>
+
+        <h3>Agora, seu tira-gosto:</h3>
+        <div id="torresmo" class="tiragosto" onclick="prod('torresmo', 'tiragosto')">
+            <img src="https://t2.rg.ltmcdn.com/pt/images/2/4/3/torresmo_crocante_na_panela_de_pressao_4342_600.jpg">
+            <h4>Torresmo</h4>
+            <p>Classico, sem defeitos!</p>
+            <p class="preco">R$ 14,90</p>
+        </div>
+
+        <div id="ovo" class="tiragosto" onclick="prod('ovo', 'tiragosto')">
+            <img src="https://melepimenta.com/wp-content/uploads/2015/08/Ovos-coloridos-Baixa-1.jpg.webp">
+            <h4>Ovo rosa do boteco</h4>
+            <p>Saudades do boteco, né meu filho?!</p>
+            <p class="preco">R$ 0,90</p>
+        </div>
+           
+        <div id="provolone" class="tiragosto" onclick="prod('provolone', 'tiragosto')">
+            <img src="https://www.cervejablackprincess.com.br/wp-content/uploads/2019/03/shutterstock_553005880-1000x500.jpg">
+            <h4>Provolone</h4>
+            <p>Burguês safado!</p>
+            <p class="preco">R$ 100,90</p>
+        </div>
+
+        <h3>Por último, o churras:</h3>
+        <div id="linguica" class="carne" onclick="prod('linguica', 'carne')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEgkFCoZM2UkYXqaTk0KABUYkTQBqeB8sgQ&usqp=CAU">
+            <h4>Linguiça</h4>
+            <p>Tu gosta, que eu sei<br />( ͡° ͜ʖ ͡°)</p>
+            <p class="preco">R$ 25,90</p>
+        </div>
+
+        <div id="costela" class="carne" onclick="prod('costela', 'carne')">
+            <img src="http://www.lopessupermercados.com.br/portalrevista/wp-content/uploads/2016/09/shutterstock_403751194-1000x312.jpg">
+            <h4>Costelinha</h4>
+            <p>Não pode faltar!</p>
+            <p class="preco">R$ 25,90</p>
+        </div>
+           
+        <div id="picanha" class="carne" onclick="prod('picanha', 'carne')">
+            <img src="https://img.cybercook.com.br/receitas/14/churrasco-de-picanha-ao-alho-2-360x220.jpeg">
+            <h4>Picanha</h4>
+            <p>Burguês Safado!</p>
+            <p class="preco">R$ 25,90</p>
+        </div>
+
+        <div class="btnContainer">
+            <button type="button" id="finalizar" class="botao" onclick="FinalizarPedido()">
+                Finalizar Pedido!
+            </button>
+        </div>
+
+        
+
+    </main>
+    
+    <footer>
+    
+    </footer>
+</body>
+
+</html>

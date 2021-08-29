@@ -1,0 +1,119 @@
+/*
+
+Theme Name: FoodBox
+Author: Adriano Siqueira
+Description: App web, para pedidos de restaurante.
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE (HC Desenvolvimentos v1)
+--------------------------------------------
+**** GERAL
+**** HEADER
+**** MAIN
+**** FOOTER
+
+*/
+
+
+/* GERAL */
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 219, 219);
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+}
+
+/* HEADER */
+.headBox {
+    background-color: rgb(66, 10, 10);
+    color: rgb(176, 171, 179);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    box-shadow: 5px 15px 10px slategray;
+}
+
+h1 {
+    margin: 1%;
+    padding: 2%;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+/*MAIN*/
+.breja, .tiragosto, .carne {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 5px solid white;
+    box-shadow: 10px 5px 35px slategrey;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 2%;
+}
+
+img {
+    width: 130px;
+    border-radius: 5px;
+    float: right;
+    justify-self: center;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    cursor: pointer;
+    width: 90vw;
+    height: 5vh;
+    color: whitesmoke;
+    background-color: green;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+    box-shadow: 5px 15px 10px slategray;
+}
+
+.botao:hover {
+    background-color: rgb(85, 141, 71);
+    color: rgb(2, 70, 2);
+}
+
+.botao:disabled {
+    background-color: rgb(80, 78, 78);
+    color: rgb(252, 253, 252);
+}
+
+.botao:active {
+    width: 81vw;
+    height: 4.5vh;
+    background-color: rgb(2, 61, 2);
+    color: honeydew;
+    box-shadow: inset 5px 15px 10px slategray;
+}
+
+/*FOOTER*/
